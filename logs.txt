@@ -1,0 +1,11 @@
+commit a307ad1cde6b9b50afb2caa432f6d90a1333af0d
+Author: CCDM22 <CCDM22@CCDM22.local>
+Date:   Thu Sep 7 10:41:27 2023 -0700
+
+    Encabezado y titulo
+
+commit 6cad3deba1697fdae3111eb518656ea464390b62
+Author: CCDM22 <CCDM22@CCDM22.local>
+Date:   Thu Sep 7 10:32:27 2023 -0700
+
+    Archivos iniciales de la clase
