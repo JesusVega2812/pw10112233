@@ -4,9 +4,6 @@ body{
     max-width: 1078px; /*Cliente*/
     min-width: 1078px;
 }
-footer{
-    background-color: #4267b3;
-}
 header nav{
     margin-left: 220px;
     /* text-align: center; */
@@ -32,23 +29,29 @@ header input{
 }
 
 
-
+#pregunta{
+    position: relative;
+    right: -820px;
+    top: -230px;  
+}
 #facebook{
     position: relative;
-    right: 10px;
-    top: -83px;
+    right: -680px;
+    top: -160px;
 }
 #twitter{
     position: relative;
-    right: -880px;
+    right: -690px;
     top: -160px;
 }
 #monitos{
     position: relative;
-    right: -910px;
+    right: -710px;
     top: -180px;
 }
 footer{
+    background-color: #4267b3;
+    border: 3px solid lightgray;
     height: 130px;
     margin-top: 50px;
 }
@@ -105,11 +108,6 @@ footer article{
 #secc03art04{
     padding-left: 25px;
     padding-top: 40px;
-}
-#secc03art04 img{
-    position: relative;
-    right: -30px;
-    top: 80px;  
 }
 #segundaSeccion article{
     padding-right: 122px;
