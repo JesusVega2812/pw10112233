@@ -1,0 +1,27 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0% auto;
+    max-width: 1024px;
+}
+#headerArt01 img{
+    padding: 30px 20px;
+}
+#headerArt02 article{
+    display: block;
+    margin-left: 100px;
+}
+#imgs01{
+    position: relative;
+    right: 200px;
+}
+header article{
+    display: inline-block;
+}
+header ul li{
+    display: inline-block;
+    padding: 8px 9.5px;
+}
+.nito{
+    font-weight: bold;
+}
