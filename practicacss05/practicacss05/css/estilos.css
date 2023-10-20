@@ -2,7 +2,6 @@ body{
     max-width: 1024px;
     margin: 0px auto;
     font-size: 16px;
-    border: 1px solid red;
 }
 header article:nth-child(1){
     background: rgb(39, 94, 144);
@@ -19,27 +18,69 @@ section{
     display: inline-block;
     vertical-align: top;
     padding: 0px 11px;
-    border: 1px solid red;
+    background: #ecebec;
 }
 #sec01{
     padding-top: -100px;
     width: 25%;
 }
+#logoProgress{
+    height: 46px;
+    background: #255c90;
+}
+#logoProgress span{
+    position: relative;
+    top: -18px;
+}
+#imgPanel{
+    width: 256.5px;
+}
 #artNav{
+    border: 1px solid #08395f;
     background: #08395f;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+#barras{
+    background: #ffffff;
+}
+#barras span{
+    padding-left: 8px;
+}
+#barras img{
+    width: 248px;
+    padding-left: 2px;
+    text-align: center;
 }
 #sec02{
-    border: 1px solid red;
     width: 70%;
-    height: 650px;
+    height: 680px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-left: -10px;
+    padding-right: 22px;
+}
+#sec02 article{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#artNav ul {
+    list-style: none;
+    margin-left: -25px;
+    height: 220px;
+}
+#artNav ul li::before{
+    content: "</>";
+}
+#artNav ul li{
+    padding-bottom: 5px;
 }
 #s2art1 article{
     display: inline-block;
     width: 21%;
-    border: 1px solid red;
     vertical-align: top;
     text-align: center;
-    padding: 8px 10px;
+    padding: 8px 11px;
     height: 150px;
 }
 #s2art1 img{
@@ -64,20 +105,21 @@ section{
 #sec02 article:nth-child(2) img{
     width: 98%;
 }
-#sec02 article:nth-child(3) img{
-    width: 98%;
-}
+
 #sec02 article:nth-child(3) article{
     display: inline-block;
     width: 21%;
-    border: 1px solid red;
     vertical-align: top;
     text-align: center;
-    padding: 8px 10px;
-    height: 160px;
+    padding: 0px 11px;
+    height: 200px;
 }
 #sec02 article:nth-child(3) article img{
     width: 100px;
+    height: 100px;
+}
+#users{
+    padding-bottom: 30px;
 }
 #users article{
     background: #4d6caa;
@@ -85,10 +127,19 @@ section{
 #sec02 article:nth-child(3) article input{
     background: #6dc2c4;
     border: #6dc2c4;
+    width: 80px;
+    height: 20px;
+    border-radius: 2px;
 }
 .letra-blanca{
     color: #ffffff;
 }
 .letra-gris{
     color: #9f9e9e;
+}
+.letra-pequeña{
+    font-size: 0.64em;
+}
+.letra-grande{
+    font-size: 1.5em;
 }
