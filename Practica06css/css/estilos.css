@@ -1,0 +1,58 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0px auto;
+}
+header{
+    height: 60px;
+    background: black;
+    vertical-align: middle;
+}
+header article {
+    display: inline-block;
+}
+header img{
+    margin-top: 10px;
+    width: 40px;
+}
+header article:nth-child(1) span{
+    position: relative;
+    top: -13px;
+}
+header article:nth-child(1){
+    margin-left: 60px;
+    vertical-align: top;
+    height: 20px;
+}
+header article:nth-child(2){
+    margin-left: 800px;
+}
+header article:nth-child(2) input{
+    height: 30px;
+    border-radius: 2px;
+    position: relative;
+    top: -5px;
+}
+#sec1{
+    text-align: center;
+    vertical-align: middle;
+    background: #dcdcef;
+    height: 200px;
+}
+#inSubmit{
+    background: black;
+    border: 1px solid white;
+    width: 120px;
+}
+#inSign{
+    background: #5062c5;
+    border:#5062c5;
+    width: 80px;
+} 
+.letra-blanca{
+    color: white;
+}
+.letra-titulo{
+    font-size: 3em;
+}
